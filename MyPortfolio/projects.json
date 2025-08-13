@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Design Your Identity (AR)",
+    "desc": "An augmented reality experience that transforms any real cup you have into a customizable virtual cup. Change color, pattern, and form in real time, preview variants, and lock your favorite—blending physical objects with digital identity.",
+    "img": "assets/Design.png",
+    "tags": [
+      "AR",
+      "Unity",
+      "AR Foundation"
+    ],
+    "type": "xr",
+    "links": {
+      "demo": "#",
+      "code": "#"
+    }
+  },
+  {
+    "title": "Room 13",
+    "desc": "A short horror prototype focused on tension and timing. Features jump-scare beats, spatial audio, and quick set-pieces built in Unity.",
+    "img": "assets/Room13.JPG",
+    "tags": [
+      "Unity",
+      "Gameplay"
+    ],
+    "type": "unity",
+    "links": {
+      "demo": "#",
+      "code": "#"
+    }
+  },
+  {
+    "title": "Under the Sea (AR)",
+    "desc": "An educational AR mini-experience about marine life using image tracking. Players explore species, tap hotspots, and reveal quick facts.",
+    "img": "assets/UnderTheSea.png",
+    "tags": [
+      "AR",
+      "Unity"
+    ],
+    "type": "xr",
+    "links": {
+      "demo": "#",
+      "code": "#"
+    }
+  },
+  {
+    "title": "CubeFive (Web)",
+    "desc": "A smart budgeting web app with gentle AI suggestions. Tracks spending, offers category insights, and proposes auto-adjusted budgets.",
+    "img": "assets/CubeFive.png",
+    "tags": [
+      "Web",
+      "JavaScript"
+    ],
+    "type": "web",
+    "links": {
+      "demo": "#",
+      "code": "#"
+    }
+  }
+]

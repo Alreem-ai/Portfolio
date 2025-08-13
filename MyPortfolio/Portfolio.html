@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Alreem R. Aldossary</title>
+  <meta name="description" content="Game & XR developer portfolio showcasing Unity, AR/VR, and interactive web experiences." />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Back to top">Alreem Aldossary</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hello, I'm <span class="accent">AlReem</span> </h1>
+        <p class="subtitle">Computer Science Student • Game & XR Developer • Crafting playful, immersive, and meaningful experiences.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn ghost" href="assets/CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          <a class="btn outline" href="www.linkedin.com/in/alreem-r-aldossary-aa827030b" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/me.png" alt="Picture of AlReem" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <h2 class="section-title">About</h2>
+      <p>
+        I build interactive worlds, mostly with <strong>Unity</strong> and the <strong>XR Interaction Toolkit</strong> and love turning concepts
+        into hands-on experiences. I’m actively exploring XR to blend learning, culture, and play. Previously selected as a
+        top performer in the <strong>Tuwaiq XR Bootcamp</strong>. I’m excited about projects that help people learn, feel, and remember.
+      </p>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <ul class="chips">
+        <li>Unity</li>
+        <li>C#</li>
+        <li>XR Interaction Toolkit</li>
+        <li>AR Foundation</li>
+        <li>Java</li>
+        <li>JavaScript / HTML / CSS</li>
+        <li>Git & GitHub</li>
+        <li>Basic UI/UX</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <div class="filters" role="tablist" aria-label="Project filters">
+          <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="chip" data-filter="unity" role="tab">Unity</button>
+          <button class="chip" data-filter="xr" role="tab">XR</button>
+          <button class="chip" data-filter="web" role="tab">Web</button>
+        </div>
+      </div>
+      <div id="project-grid" class="grid"></div>
+    </section>
+
+    <section id="achievements" class="section container">
+      <h2 class="section-title">Achievements</h2>
+      <ul class="timeline">
+        <li>
+          <span class="time">2025</span>
+          <div class="card mini">
+            <h3>Top Performer — Week 1 (Tuwaiq XR Bootcamp)</h3>
+            <p>Recognized for performance and contributions during the first week of the XR bootcamp.</p>
+            <h3>Room 13 — Horror Prototype</h3>
+            <p>A short horror experience with jump scares and tight pacing built in Unity.</p>
+          </div>
+        </li>
+        <li>
+          <span class="time">2024</span>
+          <div class="card mini">
+            <h3>Olympic Winner</h3>
+            <p>Won in the skills of speaking English language Olympics.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <form class="card contact-form" name="contact" onsubmit="return sendMessage(event)">
+          <label>Name
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>Email
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>Message
+            <textarea name="message" rows="4" required placeholder="I love your work and would like to collaborate...!"></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="card contact-info">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="www.linkedin.com/in/alreem-r-aldossary-aa827030b" target="_blank" rel="noopener" aria-label="LinkedIn profile">LinkedIn</a></li>
+            <li><a href="#" target="_blank" rel="noopener" aria-label="GitHub profile">GitHub</a></li>
+            <li><a href="aldossaryalreem@gmail.com" aria-label="Send email">aldossaryalreem@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Alreem R. Aldossary — All rights reserved</p>
+      <a class="to-top" href="#top" aria-label="Back to top"> Back to Top</a>
+    </div>
+  </footer>
+</body>
+</html>
