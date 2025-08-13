@@ -17,7 +17,7 @@
   {
     "title": "Room 13",
     "desc": "A short horror prototype focused on tension and timing. Features jump-scare beats, spatial audio, and quick set-pieces built in Unity.",
-    "img": "assets/Room13.JPG",
+    "img": "assets/Room13.jpg",
     "tags": [
       "Unity",
       "Gameplay"
